@@ -47,6 +47,14 @@ rm -rf tests/integration
 %{python3_sitelib}/%{pkgname}-*.egg-info/
 
 %changelog
+* Thu Jul 11 2024 Andrey Kulaev <akulaev@croc.ru> - 1.20.14-CROC45
+- botocore: set endpoints to type StringList
+- botocore,bc: add last tag name of protected resource
+- eks: add parameter deprecated
+- eks: add IsDeprecatedVersion Cluster and ClusterDTO shape
+- ec2: add DescribeQuotas method
+- ec2: Add ModifySecurityGroupRules API
+
 * Tue Jun 25 2024 Andrey Kulaev <akulaev@croc.ru> - 1.20.14-CROC44
 - admin: use new iam changes
 
